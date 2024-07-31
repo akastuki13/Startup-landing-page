@@ -1,0 +1,41 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Kalnia Glaze', sans-serif;
+    background: url(https://cdn2.hubspot.net/hubfs/3356694/Blog%20images/BLOG-MAIN-TypesofDistractedDriving.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 7rem;
+    color: #e2dbdb;
+}
+
+.buffer {
+    height: 10rem;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #FFAAAA;
+    border-color: #FFAAAA;
+}
+
+.btn-primary:hover {
+    background-color: #D46A6A;
+    border-color: #D46A6A;
+    border-width: 4px;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
