@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Distracted Driving Survey | DriveSafeNow</title>
+</head>
+<body>
+    <h1>Distracted Driving Survey</h1>
+    <p>Your feedback helps us create better awareness campaigns and resources. Please take a moment to complete our survey.</p>
+    
+    <form method="GET">
+        First Name: <input type="text" name="firstname"><br><br>
+
+        Last Name: <input type="text" name="lastname"><br><br>
+
+        Email: <input type="email" name="email" required><br><br>
+
+        Password: <input type="password" name="password" min="7"><br><br>
+
+        Birthday: <input type="date" name="birthday"><br><br>
+
+        Gender:<br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br><br>
+
+        Age:
+        <select name="age">
+            <option value="under_18">Under 18</option>
+            <option value="18_24">18-24</option>
+            <option value="25_34">25-34</option>
+            <option value="35_44">35-44</option>
+            <option value="45_54">45-54</option>
+            <option value="55_64">55-64</option>
+            <option value="65_over">65 or over</option>
+        </select>
+        <br><br>
+
+        How often do you engage in the following while driving?<br>
+        Texting:
+        <select id="texting" name="texting">
+            <option value="never">Never</option>
+            <option value="rarely">Rarely</option>
+            <option value="sometimes">Sometimes</option>
+            <option value="often">Often</option>
+            <option value="always">Always</option>
+        </select>
+        <br><br>
+
+        Eating or drinking:
+        <select name="eating">
+            <option value="never">Never</option>
+            <option value="rarely">Rarely</option>
+            <option value="sometimes">Sometimes</option>
+            <option value="often">Often</option>
+            <option value="always">Always</option>
+        </select>
+        <br><br>
+
+        Talking on the phone (handheld or hands-free):
+        <select name="calls">
+            <option value="never">Never</option>
+            <option value="rarely">Rarely</option>
+            <option value="sometimes">Sometimes</option>
+            <option value="often">Often</option>
+            <option value="always">Always</option>
+        </select>
+        <br><br>
+
+        Additional Comments:<br>
+        <textarea name="additional_comments" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
